@@ -31,7 +31,7 @@ void quicksort(unsigned long long lista[],unsigned long long n)
 {
     qs(lista,0,n-1);
 }
-
+/*
 int main()
 {
 
@@ -58,3 +58,4 @@ int main()
 
     return 0;
 }
+*/

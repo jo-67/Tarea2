@@ -4,6 +4,7 @@
 #include <time.h>
 #include <math.h>
 #include "radixSort.c"
+#include "quicksort.c"
 
 unsigned long long generarNumeroAleatorio(unsigned long long u) {
     unsigned long long r = 0;
@@ -48,13 +49,13 @@ int experiment_u(int p) {
     radixSort(randomArray, n, 15);
     clock_t fin = clock();
 
-    //double tiempo_radix = (double)(fin - inicio) / CLOCKS_PER_SEC;
-    double tiempo_radix = (double)(fin - inicio);
+    double tiempo_radix = (double)(fin - inicio) / CLOCKS_PER_SEC;
+    //double tiempo_radix = (double)(fin - inicio);
     printf("RadixSort tomó %.2lf segundos en ejecutarse.\n", tiempo_radix);
 
     //Test Quick sort
     clock_t inicio2 = clock();
-    // quick 
+    quicksort(randomArray, n); 
     clock_t fin2 = clock();
 
     double tiempo_quick = (double)(fin2 - inicio2) / CLOCKS_PER_SEC;
