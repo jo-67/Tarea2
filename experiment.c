@@ -3,6 +3,7 @@
 #include <stddef.h> // Incluye la biblioteca para definir NULL
 #include <time.h>
 #include <math.h>
+#include "radixSort.c"
 
 unsigned long long generarNumeroAleatorio(unsigned long long u) {
     unsigned long long r = 0;
@@ -42,14 +43,13 @@ int experiment_u(int p) {
 
     // Llamada a la función para crear el arreglo
     unsigned long long* randomArray = createRandomArray(n, u);
-
     // Test radix sort
     clock_t inicio = clock();
-    // radix 
+    radixSort(randomArray, n, 15);
     clock_t fin = clock();
 
-    double tiempo_radix = (double)(fin - inicio) / CLOCKS_PER_SEC;
-
+    //double tiempo_radix = (double)(fin - inicio) / CLOCKS_PER_SEC;
+    double tiempo_radix = (double)(fin - inicio);
     printf("RadixSort tomó %.2lf segundos en ejecutarse.\n", tiempo_radix);
 
     //Test Quick sort
@@ -72,7 +72,7 @@ int experiment_u(int p) {
 
 int main() {
     //createRandomArray(100000000, u);
-    for (int i = 1; i < 63; i++) {
+    for (int i = 1; i < 64; i++) {
         experiment_u(i);
         //arreglo[i] = generarNumeroAleatorio(u);
     }
