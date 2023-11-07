@@ -60,9 +60,6 @@ void radixSort(unsigned long long array[], unsigned long long size, unsigned lon
         free(B);
         
     }
-    for (int i = 0; i < 20; i++){
-            printf("%llu ", array[i]);
-        }
 
 }
 /*
