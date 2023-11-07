@@ -18,7 +18,7 @@ unsigned long long getBits(unsigned long long n, unsigned long long bits, int k)
 
 void radixSort(unsigned long long array[], unsigned long long size, unsigned long long bits){
 
-    unsigned long long max = getMax(array,size); //si esto es demasiado cambiarlo por la cantidad de bits del maximo
+    unsigned long long max = ~(~0U << bits); //si esto es demasiado cambiarlo por la cantidad de bits del maximo
 
     unsigned long long C[max+1]; 
 
@@ -45,7 +45,8 @@ void radixSort(unsigned long long array[], unsigned long long size, unsigned lon
             C[i] += C[i-1];
         }
 
-        unsigned long long B[size];
+        //unsigned long long B[size];
+        unsigned long long* B = (unsigned long long*)malloc(size * sizeof(unsigned long long));
 
         for (long long j = size-1; j >= 0; j--){
             unsigned long long n = C[getBits(array[j],bits,k)];
@@ -56,10 +57,15 @@ void radixSort(unsigned long long array[], unsigned long long size, unsigned lon
         for (unsigned long long i = 0; i < size; i++){
             array[i] = B[i];
         }
+        free(B);
+        
     }
+    for (int i = 0; i < 20; i++){
+            printf("%llu ", array[i]);
+        }
 
 }
-
+/*
 int main(){
     unsigned long long array[] = {5,1,3,10,29,12,2,2,2,3,4,5,6,3,87,2,3,434,12,19,946,178,3348,123,5234,1,1,1,94235,5,1,3,10,29,12,2,2,2,3,4,5,6,3,87,2,3,434,12,19,946,178,3348,123,5234,1,1,1,94235,5,1,3,10,29,12,2,2,2,3,4,5,6,3,87,2,3,434,12,19,946,178,3348,123,5234,1,1,1,94235,5,1,3,10,29,12,2,2,2,3,4,5,6,3,87,2,3,434,12,19,946,178,3348,123,5234,1,1,1,94235,5,1,3,10,29,12,2,2,2,3,4,5,6,3,87,2,3,434,12,19,946,178,3348,123,5234,1,1,1,94235,5,1,3,10,29,12,2,2,2,3,4,5,6,3,87,2,3,434,12,19,946,178,3348,123,5234,1,1,1,94235,5,1,3,10,29,12,2,2,2,3,4,5,6,3,87,2,3,434,12,19,946,178,3348,123,5234,1,1,1,94235};
     unsigned long long size = sizeof(array)/sizeof(array[0]);
@@ -72,6 +78,6 @@ int main(){
     printf("\n");
     return 0;
 }
-
+*/
 
 
