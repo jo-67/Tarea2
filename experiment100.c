@@ -34,7 +34,7 @@ int experiment_u(int p) {
     for (int i=0 ; i<100 ; i++) {
         unsigned long long* randomArray = createRandomArray(n, u);
         clock_t inicio = clock();
-        radixSort(randomArray, n, 15);
+        radixSort(randomArray, n, 26);
         clock_t fin = clock();
         radix = radix + (fin -inicio);
         clock_t inicio2 = clock();
