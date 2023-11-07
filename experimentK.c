@@ -19,7 +19,7 @@ unsigned long long* createRandomArray(int n, unsigned long long u) {
     return arreglo;
 }
 
-int experiment_u(int p) {
+int experiment_k(int p) {
     printf("Ejecutando para 2^%d \n", p);
 
     // Semilla para la generación de números aleatorios
@@ -30,28 +30,17 @@ int experiment_u(int p) {
     unsigned  __int128 u = 1;
     u <<= p;
     clock_t radix = 0;
-    clock_t quick = 0;
-    for (int i=0 ; i<100 ; i++) {
+    for (int i=1 ; i<30 ; i++) {
         unsigned long long* randomArray = createRandomArray(n, u);
         clock_t inicio = clock();
-        radixSort(randomArray, n, 15);
+        radixSort(randomArray, n, i);
         clock_t fin = clock();
-        radix = radix + (fin -inicio);
-        clock_t inicio2 = clock();
-        quicksort(randomArray, n);
-        clock_t fin2 = clock();
-        quick = quick + (fin2 -inicio2);
+        radix = (fin -inicio);
+        double tiempo_radix = (double)(radix) / CLOCKS_PER_SEC;
+        printf("RadixSort k=%d tomó %.2lf segundos en ejecutarse.\n", i,tiempo_radix);
 
         free(randomArray);
     }
-
-    double tiempo_radix = (double)(radix/100) / CLOCKS_PER_SEC;
-    //double tiempo_radix = (double)(fin - inicio);
-    printf("RadixSort tomó %.2lf segundos en ejecutarse.\n", tiempo_radix);
-
-    double tiempo_quick = (double)(quick/100) / CLOCKS_PER_SEC;
-
-    printf("QuickSort tomó %.2lf segundos en ejecutarse.\n", tiempo_quick);
 
     printf("End\n");
 
@@ -62,7 +51,7 @@ int experiment_u(int p) {
 int main() {
     //createRandomArray(100000000, u);
     for (int i = 1; i < 64; i++) {
-        experiment_u(i);
+        experiment_k(i);
         //arreglo[i] = generarNumeroAleatorio(u);
     }
     printf("End");
