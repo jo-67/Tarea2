@@ -6,7 +6,7 @@ void qs(unsigned long long lista[],unsigned long long limite_izq,unsigned long l
 
     izq=limite_izq;
     der = limite_der;
-    pivote = lista[(izq+der)/2];
+    pivote = rand() % sizeof(lista);
 
     do{
         while(lista[izq]<pivote && izq<limite_der)izq++;
