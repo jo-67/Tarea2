@@ -61,7 +61,7 @@ int experiment_u(int p) {
 
 int main() {
     //createRandomArray(100000000, u);
-    for (int i = 1; i < 64; i++) {
+    for (int i = 1; i < 33; i++) {
         experiment_u(i);
         //arreglo[i] = generarNumeroAleatorio(u);
     }
