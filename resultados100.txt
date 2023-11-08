@@ -1,0 +1,256 @@
+Ejecutando para 2^1 
+RadixSort tom├│ 6.07 segundos en ejecutarse.
+QuickSort tom├│ 5.29 segundos en ejecutarse.
+End
+Ejecutando para 2^2
+RadixSort tom├│ 6.04 segundos en ejecutarse.
+QuickSort tom├│ 6.17 segundos en ejecutarse.
+End
+Ejecutando para 2^3
+RadixSort tom├│ 6.05 segundos en ejecutarse.
+QuickSort tom├│ 6.65 segundos en ejecutarse.
+End
+Ejecutando para 2^4
+RadixSort tom├│ 6.10 segundos en ejecutarse.
+QuickSort tom├│ 7.12 segundos en ejecutarse.
+End
+Ejecutando para 2^5
+RadixSort tom├│ 6.04 segundos en ejecutarse.
+QuickSort tom├│ 7.46 segundos en ejecutarse.
+End
+Ejecutando para 2^6
+RadixSort tom├│ 6.06 segundos en ejecutarse.
+QuickSort tom├│ 7.82 segundos en ejecutarse.
+End
+Ejecutando para 2^7
+RadixSort tom├│ 6.07 segundos en ejecutarse.
+QuickSort tom├│ 8.20 segundos en ejecutarse.
+End
+Ejecutando para 2^8
+RadixSort tom├│ 6.08 segundos en ejecutarse.
+QuickSort tom├│ 8.65 segundos en ejecutarse.
+End
+Ejecutando para 2^9
+RadixSort tom├│ 6.10 segundos en ejecutarse.
+QuickSort tom├│ 8.96 segundos en ejecutarse.
+End
+Ejecutando para 2^10
+RadixSort tom├│ 6.17 segundos en ejecutarse.
+QuickSort tom├│ 9.35 segundos en ejecutarse.
+End
+Ejecutando para 2^11
+RadixSort tom├│ 6.39 segundos en ejecutarse.
+QuickSort tom├│ 9.72 segundos en ejecutarse.
+End
+Ejecutando para 2^12
+RadixSort tom├│ 6.62 segundos en ejecutarse.
+QuickSort tom├│ 10.14 segundos en ejecutarse.
+End
+Ejecutando para 2^13
+RadixSort tom├│ 6.78 segundos en ejecutarse.
+QuickSort tom├│ 10.51 segundos en ejecutarse.
+End
+Ejecutando para 2^14
+RadixSort tom├│ 7.01 segundos en ejecutarse.
+QuickSort tom├│ 10.84 segundos en ejecutarse.
+End
+Ejecutando para 2^15
+RadixSort tom├│ 7.36 segundos en ejecutarse.
+QuickSort tom├│ 11.37 segundos en ejecutarse.
+End
+Ejecutando para 2^16
+RadixSort tom├│ 7.29 segundos en ejecutarse.
+QuickSort tom├│ 11.26 segundos en ejecutarse.
+End
+Ejecutando para 2^17
+RadixSort tom├│ 7.29 segundos en ejecutarse.
+QuickSort tom├│ 11.23 segundos en ejecutarse.
+End
+Ejecutando para 2^18
+RadixSort tom├│ 7.29 segundos en ejecutarse.
+QuickSort tom├│ 11.24 segundos en ejecutarse.
+End
+Ejecutando para 2^19
+RadixSort tom├│ 7.29 segundos en ejecutarse.
+QuickSort tom├│ 11.28 segundos en ejecutarse.
+End
+Ejecutando para 2^20
+RadixSort tom├│ 7.28 segundos en ejecutarse.
+QuickSort tom├│ 11.27 segundos en ejecutarse.
+End
+Ejecutando para 2^21
+RadixSort tom├│ 7.29 segundos en ejecutarse.
+QuickSort tom├│ 11.32 segundos en ejecutarse.
+End
+Ejecutando para 2^22
+RadixSort tom├│ 8.74 segundos en ejecutarse.
+QuickSort tom├│ 11.91 segundos en ejecutarse.
+End
+Ejecutando para 2^23
+RadixSort tom├│ 7.84 segundos en ejecutarse.
+QuickSort tom├│ 11.57 segundos en ejecutarse.
+End
+Ejecutando para 2^24
+RadixSort tom├│ 7.78 segundos en ejecutarse.
+QuickSort tom├│ 11.54 segundos en ejecutarse.
+End
+Ejecutando para 2^25
+RadixSort tom├│ 7.38 segundos en ejecutarse.
+QuickSort tom├│ 11.37 segundos en ejecutarse.
+End
+Ejecutando para 2^26
+RadixSort tom├│ 7.38 segundos en ejecutarse.
+QuickSort tom├│ 11.41 segundos en ejecutarse.
+End
+Ejecutando para 2^27
+RadixSort tom├│ 7.54 segundos en ejecutarse.
+QuickSort tom├│ 11.57 segundos en ejecutarse.
+End
+Ejecutando para 2^28
+RadixSort tom├│ 8.07 segundos en ejecutarse.
+QuickSort tom├│ 11.71 segundos en ejecutarse.
+End
+Ejecutando para 2^29
+RadixSort tom├│ 7.97 segundos en ejecutarse.
+QuickSort tom├│ 11.80 segundos en ejecutarse.
+End
+Ejecutando para 2^30
+RadixSort tom├│ 7.31 segundos en ejecutarse.
+QuickSort tom├│ 11.29 segundos en ejecutarse.
+End
+Ejecutando para 2^31
+RadixSort tom├│ 7.30 segundos en ejecutarse.
+QuickSort tom├│ 11.27 segundos en ejecutarse.
+End
+Ejecutando para 2^32
+RadixSort tom├│ 7.29 segundos en ejecutarse.
+QuickSort tom├│ 11.30 segundos en ejecutarse.
+End
+Ejecutando para 2^33
+RadixSort tom├│ 7.30 segundos en ejecutarse.
+QuickSort tom├│ 11.33 segundos en ejecutarse.
+End
+Ejecutando para 2^34
+RadixSort tom├│ 7.30 segundos en ejecutarse.
+QuickSort tom├│ 11.30 segundos en ejecutarse.
+End
+Ejecutando para 2^35
+RadixSort tom├│ 7.30 segundos en ejecutarse.
+QuickSort tom├│ 11.29 segundos en ejecutarse.
+End
+Ejecutando para 2^36
+RadixSort tom├│ 7.30 segundos en ejecutarse.
+QuickSort tom├│ 11.30 segundos en ejecutarse.
+End
+Ejecutando para 2^37
+RadixSort tom├│ 7.30 segundos en ejecutarse.
+QuickSort tom├│ 11.25 segundos en ejecutarse.
+End
+Ejecutando para 2^38
+RadixSort tom├│ 7.30 segundos en ejecutarse.
+QuickSort tom├│ 11.21 segundos en ejecutarse.
+End
+Ejecutando para 2^39
+RadixSort tom├│ 7.30 segundos en ejecutarse.
+QuickSort tom├│ 11.31 segundos en ejecutarse.
+End
+Ejecutando para 2^40
+RadixSort tom├│ 7.34 segundos en ejecutarse.
+QuickSort tom├│ 11.32 segundos en ejecutarse.
+End
+Ejecutando para 2^41
+RadixSort tom├│ 7.31 segundos en ejecutarse.
+QuickSort tom├│ 11.27 segundos en ejecutarse.
+End
+Ejecutando para 2^42
+RadixSort tom├│ 7.30 segundos en ejecutarse.
+QuickSort tom├│ 11.31 segundos en ejecutarse.
+End
+Ejecutando para 2^43
+RadixSort tom├│ 7.37 segundos en ejecutarse.
+QuickSort tom├│ 11.26 segundos en ejecutarse.
+End
+Ejecutando para 2^44
+RadixSort tom├│ 7.91 segundos en ejecutarse.
+QuickSort tom├│ 12.10 segundos en ejecutarse.
+End
+Ejecutando para 2^45
+RadixSort tom├│ 8.29 segundos en ejecutarse.
+QuickSort tom├│ 12.02 segundos en ejecutarse.
+End
+Ejecutando para 2^46
+RadixSort tom├│ 8.25 segundos en ejecutarse.
+QuickSort tom├│ 12.05 segundos en ejecutarse.
+End
+Ejecutando para 2^47
+RadixSort tom├│ 8.35 segundos en ejecutarse.
+QuickSort tom├│ 12.07 segundos en ejecutarse.
+End
+Ejecutando para 2^48
+RadixSort tom├│ 8.16 segundos en ejecutarse.
+QuickSort tom├│ 11.79 segundos en ejecutarse.
+End
+Ejecutando para 2^49
+RadixSort tom├│ 8.29 segundos en ejecutarse.
+QuickSort tom├│ 11.91 segundos en ejecutarse.
+End
+Ejecutando para 2^50
+RadixSort tom├│ 8.21 segundos en ejecutarse.
+QuickSort tom├│ 11.90 segundos en ejecutarse.
+End
+Ejecutando para 2^51
+RadixSort tom├│ 8.12 segundos en ejecutarse.
+QuickSort tom├│ 11.81 segundos en ejecutarse.
+End
+Ejecutando para 2^52
+RadixSort tom├│ 8.72 segundos en ejecutarse.
+QuickSort tom├│ 12.44 segundos en ejecutarse.
+End
+Ejecutando para 2^53
+RadixSort tom├│ 7.83 segundos en ejecutarse.
+QuickSort tom├│ 11.78 segundos en ejecutarse.
+End
+Ejecutando para 2^54
+RadixSort tom├│ 7.58 segundos en ejecutarse.
+QuickSort tom├│ 11.47 segundos en ejecutarse.
+End
+Ejecutando para 2^55
+RadixSort tom├│ 7.73 segundos en ejecutarse.
+QuickSort tom├│ 11.51 segundos en ejecutarse.
+End
+Ejecutando para 2^56
+RadixSort tom├│ 7.56 segundos en ejecutarse.
+QuickSort tom├│ 11.49 segundos en ejecutarse.
+End
+Ejecutando para 2^57
+RadixSort tom├│ 7.82 segundos en ejecutarse.
+QuickSort tom├│ 11.66 segundos en ejecutarse.
+End
+Ejecutando para 2^58
+RadixSort tom├│ 7.59 segundos en ejecutarse.
+QuickSort tom├│ 11.39 segundos en ejecutarse.
+End
+Ejecutando para 2^59
+RadixSort tom├│ 7.49 segundos en ejecutarse.
+QuickSort tom├│ 11.40 segundos en ejecutarse.
+End
+Ejecutando para 2^60
+RadixSort tom├│ 7.45 segundos en ejecutarse.
+QuickSort tom├│ 11.44 segundos en ejecutarse.
+End
+Ejecutando para 2^61
+RadixSort tom├│ 7.47 segundos en ejecutarse.
+QuickSort tom├│ 11.46 segundos en ejecutarse.
+End
+Ejecutando para 2^62
+RadixSort tom├│ 7.41 segundos en ejecutarse.
+QuickSort tom├│ 11.41 segundos en ejecutarse.
+End
+Ejecutando para 2^63
+RadixSort tom├│ 7.54 segundos en ejecutarse.
+QuickSort tom├│ 11.48 segundos en ejecutarse.
+End
+Ejecutando para 2^64 
+RadixSort tom├│ 8.35 segundos en ejecutarse.
+QuickSort tom├│ 11.86 segundos en ejecutarse.
+End
