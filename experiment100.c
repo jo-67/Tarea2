@@ -33,12 +33,15 @@ int experiment_u(int p) {
     clock_t quick = 0;
     for (int i=0 ; i<100 ; i++) {
         unsigned long long* randomArray = createRandomArray(n, u);
+        unsigned long long* randomArray2 = (unsigned long long*)malloc(n * sizeof(unsigned long long));
+        memcpy(randomArray2, randomArray, n * sizeof(unsigned long long));
+
         clock_t inicio = clock();
         radixSort(randomArray, n, 26);
         clock_t fin = clock();
         radix = radix + (fin -inicio);
         clock_t inicio2 = clock();
-        quicksort(randomArray, n);
+        quicksort(randomArray2, n);
         clock_t fin2 = clock();
         quick = quick + (fin2 -inicio2);
 
@@ -61,7 +64,7 @@ int experiment_u(int p) {
 
 int main() {
     //createRandomArray(100000000, u);
-    for (int i = 1; i < 33; i++) {
+    for (int i = 1; i < 64; i++) {
         experiment_u(i);
         //arreglo[i] = generarNumeroAleatorio(u);
     }

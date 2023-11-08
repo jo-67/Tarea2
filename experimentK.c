@@ -32,6 +32,7 @@ int experiment_k(int p) {
     clock_t radix = 0;
     for (int i=1 ; i<30 ; i++) {
         unsigned long long* randomArray = createRandomArray(n, u);
+
         clock_t inicio = clock();
         radixSort(randomArray, n, i);
         clock_t fin = clock();

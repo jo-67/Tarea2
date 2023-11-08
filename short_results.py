@@ -13,8 +13,7 @@ pattern = r"RadixSort k=(\d+) tomó ([\d.]+) segundos"
 
 
 exe = resultados_texto.split("Ejecutando para ")
-#print(exe)
-dic = []
+
 l = []
 for i in exe:
     mod = i.replace("RadixSort ", "")
@@ -25,10 +24,9 @@ for i in exe:
     for line in ke[1:]:
         if line != "" and line!="End":
             a = line.split(" ")
-            k = a[0]
+            k = a[0].replace("k=", "")
             t = a[2]
-            dic.append({"universo": u, "k": int(k.replace("k=", "")), "t": float(t)})
-            l = l + [[u, int(k.replace("k=", "")), float(t)]]
+            l = l + [[int(u.split("^")[1]), int(k), float(t)]]
 
 #print(l)
 df = pd.DataFrame(l)
