@@ -20,7 +20,7 @@ void radixSort(unsigned long long array[], unsigned long long size, unsigned lon
 
     unsigned long long max = ~(~0U << bits); //si esto es demasiado cambiarlo por la cantidad de bits del maximo
 
-    unsigned long long C[max+1]; 
+    unsigned long long* C = (unsigned long long*)malloc((max + 1 ) * sizeof(unsigned long long));
 
     for (int k = 0; k < 64; k += bits){ // es 64 porque los numeros long long tienen 8 bytes y eso son 64 bits //puede ser que se puda obtimizar la cantidad de "vueltas que da" //probablemte se tiene que cambiar esto
        //reemplazar el 64 por la cantidad de bits del numero más grande asi se reduce la cantidad de ciclos
@@ -60,7 +60,7 @@ void radixSort(unsigned long long array[], unsigned long long size, unsigned lon
         free(B);
         
     }
-
+    free(C);
 }
 /*
 int main(){
