@@ -33,9 +33,6 @@ void radixSort(unsigned long long array[], unsigned long long size, unsigned lon
             C[i] = 0;
         }
 
-        for(unsigned long long i = 0; i < max+1; i++){ //se inicialiiza C
-            C[i] = 0;
-        }
 
         for(unsigned long long i = 0; i < size; i++){
             C[getBits(array[i],bits,k)]++;
